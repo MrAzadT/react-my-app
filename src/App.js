@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div className="App">
-      <Header property="abid azad Tamal" />
+      <Header property="Azad T" />
 
       <div className="container">
         <Contact name="Azad" gmail="mrazadt@gmail.com" phone="222-222-222" />
