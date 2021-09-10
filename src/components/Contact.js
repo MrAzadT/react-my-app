@@ -4,9 +4,9 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        <h1>name : azad</h1>
-        <h3>gmail: mrazadt@gmail.com</h3>
-        <h4>home : Barishal</h4>
+        <h2>name : {this.props.name}</h2>
+        <h3>gmail: {this.props.gmail}</h3>
+        <h4>phone : {this.props.phone}</h4>
       </div>
     );
   }
