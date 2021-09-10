@@ -1,7 +1,8 @@
 import React from "react";
 
 const Header = (props) => {
-  return <h1>{props.property}</h1>;
+  const { property } = props;
+  return <h1 style={{ color: "red" }}>{property}</h1>;
 };
 
 export default Header;
