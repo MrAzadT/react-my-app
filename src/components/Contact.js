@@ -1,8 +1,21 @@
+// import React, { Component } from "react";
+
+// class Contact extends Component {
+//   render() {
+//     return <div></div>;
+//   }
+// }
+// export default Contact;
+
 import React, { Component } from "react";
 
 class Contact extends Component {
   render() {
-    return <div></div>;
+    return (
+      <div>
+        <h1>contact</h1>
+      </div>
+    );
   }
 }
 
