@@ -17,12 +17,12 @@ const Header = (props) => {
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/">
-                Features
+                Contact
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/">
-                Pricing
+                My Portfolio
               </a>
             </li>
             <li class="nav-item"></li>
