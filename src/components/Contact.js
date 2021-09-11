@@ -3,8 +3,8 @@ import React, { Component } from "react";
 class Contact extends Component {
   state = {};
 
-  onShowClick = () => {
-    console.log(this.state);
+  onShowClick = (name, e) => {
+    console.log(name);
   };
   render() {
     const { name, gmail, phone } = this.props.contact;
@@ -12,7 +12,10 @@ class Contact extends Component {
       <div className="card card-body mb-3">
         <h1 className="mx-4">
           {name}
-          <i onClick={this.onShowClick} class="fas fa-sort-down"></i>
+          <i
+            onClick={this.onShowClick.bind(this, name)}
+            class="fas fa-sort-down"
+          ></i>
         </h1>
         <ul className="list-item">
           <li className="list-group-item">{gmail} </li>
