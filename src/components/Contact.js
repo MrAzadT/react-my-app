@@ -1,6 +1,11 @@
 import React, { Component } from "react";
 
 class Contact extends Component {
+  state = {};
+
+  onShowClick = () => {
+    console.log(this.state);
+  };
   render() {
     const { name, gmail, phone } = this.props.contact;
     return (
