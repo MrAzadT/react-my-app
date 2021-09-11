@@ -1,18 +1,21 @@
 import "./App.css";
 import Contacts from "./components/Contacts";
 import Header from "./components/Header";
+import { Provider } from "./context";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div className="App">
-      <Header property="Azad T" />
+    <Provider>
+      <div className="App">
+        <Header property="Azad T" />
 
-      <div className="container">
-        <Contacts />
+        <div className="container">
+          <Contacts />
+        </div>
       </div>
-    </div>
+    </Provider>
   );
 }
 
